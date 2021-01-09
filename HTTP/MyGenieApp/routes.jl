@@ -1,9 +1,4 @@
 using Genie.Router
+using BooksController
 
-route("/hello") do
-  "Welcome to Genie"
-end
-
-route("/about") do
-  "About page"
-end
+route("/bgbooks", BooksController.billgatesbooks)
